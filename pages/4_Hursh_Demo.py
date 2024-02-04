@@ -1,5 +1,13 @@
 import pandas as pd
+import streamlit as st
 
-df = pd.read_csv("cities.csv")
+def my_demo():
+    df = pd.read_csv("/workspaces/hk-first-app/pages/oscar.csv")
+    df = df.set_index("Index")
+    
 
-print(df)
+my_demo()
+
+
+
+
