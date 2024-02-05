@@ -1,91 +1,66 @@
-"Index", "Year", "Age", "Name", "Movie"
- 1, 1928, 44, "Emil Jannings", "The Last Command, The Way of All Flesh"
- 2, 1929, 41, "Warner Baxter", "In Old Arizona"
- 3, 1930, 62, "George Arliss", "Disraeli"
- 4, 1931, 53, "Lionel Barrymore", "A Free Soul"
- 5, 1932, 47, "Wallace Beery", "The Champ"
- 6, 1933, 35, "Fredric March", "Dr. Jekyll and Mr. Hyde"
- 7, 1934, 34, "Charles Laughton", "The Private Life of Henry VIII"
- 8, 1935, 34, "Clark Gable", "It Happened One Night"
- 9, 1936, 49, "Victor McLaglen", "The Informer"	
-10, 1937, 41, "Paul Muni", "The Story of Louis Pasteur"	
-11, 1938, 37, "Spencer Tracy", "Captains Courageous"
-12, 1939, 38, "Spencer Tracy", "Boys Town"
-13, 1940, 34, "Robert Donat", "Goodbye, Mr. Chips"	
-14, 1941, 32, "James Stewart", "The Philadelphia Story"
-15, 1942, 40, "Gary Cooper", "Sergeant York"
-16, 1943, 43, "James Cagney", "Yankee Doodle Dandy"	
-17, 1944, 48, "Paul Lukas", "Watch on the Rhine"	
-18, 1945, 41, "Bing Crosby", "Going My Way"
-19, 1946, 39, "Ray Milland", "The Lost Weekend" 	
-20, 1947, 49, "Fredric March", "The Best Years of Our Lives"
-21, 1948, 57, "Ronald Colman", "A Double Life"
-22, 1949, 41, "Laurence Olivier", "Hamlet"
-23, 1950, 38, "Broderick Crawford", "All the King's Men"
-24, 1951, 39, "José Ferrer", "Cyrano de Bergerac"
-25, 1952, 52, "Humphrey Bogart", "The African Queen"
-26, 1953, 51, "Gary Cooper", "High Noon"
-27, 1954, 35, "William Holden", "Stalag 17"
-28, 1955, 30, "Marlon Brando", "On the Waterfront"
-29, 1956, 39, "Ernest Borgnine", "Marty"
-30, 1957, 36, "Yul Brynner", "The King and I"
-31, 1958, 43, "Alec Guinness", "The Bridge on the River Kwai"
-32, 1959, 49, "David Niven", "Separate Tables"
-33, 1960, 36, "Charlton Heston", "Ben-Hur"
-34, 1961, 47, "Burt Lancaster", "Elmer Gantry"
-35, 1962, 31, "Maximilian Schell", "Judgment at Nuremberg"	
-36, 1963, 47, "Gregory Peck", "To Kill a Mockingbird"
-37, 1964, 37, "Sidney Poitier", "Lilies of the Field"
-38, 1965, 57, "Rex Harrison", "My Fair Lady"
-39, 1966, 42, "Lee Marvin", "Cat Ballou"	
-40, 1967, 45, "Paul Scofield", "A Man for All Seasons"
-41, 1968, 42, "Rod Steiger", "In the Heat of the Night"	
-42, 1969, 45, "Cliff Robertson", "Charly"
-43, 1970, 62, "John Wayne", "True Grit"
-44, 1971, 43, "George C. Scott", "Patton"
-45, 1972, 42, "Gene Hackman", "The French Connection"
-46, 1973, 48, "Marlon Brando", "The Godfather"
-47, 1974, 49, "Jack Lemmon", "Save the Tiger"
-48, 1975, 56, "Art Carney", "Harry and Tonto"
-49, 1976, 38, "Jack Nicholson", "One Flew Over the Cuckoo's Nest"
-50, 1977, 60, "Peter Finch", "Network"
-51, 1978, 30, "Richard Dreyfuss", "The Goodbye Girl"
-52, 1979, 40, "Jon Voight", "Coming Home"
-53, 1980, 42, "Dustin Hoffman", "Kramer vs. Kramer"
-54, 1981, 37, "Robert De Niro", "Raging Bull"
-55, 1982, 76, "Henry Fonda", "On Golden Pond"
-56, 1983, 39, "Ben Kingsley", "Gandhi"
-57, 1984, 53, "Robert Duvall", "Tender Mercies"
-58, 1985, 45, "F. Murray Abraham", "Amadeus"
-59, 1986, 36, "William Hurt", "Kiss of the Spider Woman"
-60, 1987, 62, "Paul Newman", "The Color of Money"
-61, 1988, 43, "Michael Douglas", "Wall Street"
-62, 1989, 51, "Dustin Hoffman", "Rain Man"
-63, 1990, 32, "Daniel Day-Lewis", "My Left Foot"
-64, 1991, 42, "Jeremy Irons", "Reversal of Fortune"
-65, 1992, 54, "Anthony Hopkins", "The Silence of the Lambs"
-66, 1993, 52, "Al Pacino", "Scent of a Woman"
-67, 1994, 37, "Tom Hanks", "Philadelphia"
-68, 1995, 38, "Tom Hanks", "Forrest Gump"
-69, 1996, 32, "Nicolas Cage", "Leaving Las Vegas"
-70, 1997, 45, "Geoffrey Rush", "Shine"
-71, 1998, 60, "Jack Nicholson", "As Good as It Gets"
-72, 1999, 46, "Roberto Benigni", "Life Is Beautiful"
-73, 2000, 40, "Kevin Spacey", "American Beauty"
-74, 2001, 36, "Russell Crowe", "Gladiator"
-75, 2002, 47, "Denzel Washington", "Training Day"	
-76, 2003, 29, "Adrien Brody", "The Pianist"
-77, 2004, 43, "Sean Penn", "Mystic River"
-78, 2005, 37, "Jamie Foxx", "Ray"
-79, 2006, 38, "Philip Seymour Hoffman", "Capote"
-80, 2007, 45, "Forest Whitaker", "The Last King of Scotland"	
-81, 2008, 50, "Daniel Day-Lewis", "There Will Be Blood"
-82, 2009, 48, "Sean Penn", "Milk"
-83, 2010, 60, "Jeff Bridges", "Crazy Heart"
-84, 2011, 50, "Colin Firth", "The King's Speech"	
-85, 2012, 39, "Jean Dujardin", "The Artist"
-86, 2013, 55, "Daniel Day-Lewis", "Lincoln"
-87, 2014, 44, "Matthew McConaughey", "Dallas Buyers Club"
-88, 2015, 33, "Eddie Redmayne", "The Theory of Everything"	
-89, 2016, 41, "Leonardo DiCaprio", "The Revenant"
-
+Year,Age,Net Worth
+1960,56,65745892
+1961,54,64991257
+1962,53,153468278
+1963,57,19460661
+1964,58,64555455
+1965,40,163321560
+1966,46,62609443
+1967,54,86160142
+1968,60,41014319
+1969,52,157839004
+1970,38,181339080
+1971,57,12948176
+1972,59,87037368
+1973,34,189316199
+1974,36,68131495
+1975,49,75603965
+1976,32,29079272
+1977,33,45281782
+1978,35,139018430
+1979,55,72200552
+1980,60,49845454
+1981,35,194946714
+1982,56,58762164
+1983,34,110272052
+1984,32,126388368
+1985,46,164602742
+1986,37,169874429
+1987,38,9144671
+1988,45,171196463
+1989,30,123885501
+1990,56,30606070
+1991,31,101289040
+1992,52,70942586
+1993,51,21585301
+1994,53,105634553
+1995,32,126417480
+1996,47,44717453
+1997,33,37653785
+1998,46,40453624
+1999,60,5089098
+2000,53,98748336
+2001,43,68990354
+2002,59,97151422
+2003,31,83166624
+2004,40,39128075
+2005,48,114615641
+2006,33,109218310
+2007,44,169950191
+2008,44,167274246
+2009,47,65496861
+2010,37,32987227
+2011,59,191214927
+2012,53,69365599
+2013,31,134713707
+2014,39,81708741
+2015,38,190780030
+2016,30,4586067
+2017,57,12863994
+2018,32,120601964
+2019,30,176917925
+2020,32,62335096
+2021,35,81357800
+2022,51,49533203
+2023,44,29219344
+2024,45,178737773
