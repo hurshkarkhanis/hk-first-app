@@ -8,14 +8,6 @@ import time
 import numpy as np
 import datetime
 
-
-
-
-
-
-
-
-
 msft = yf.Ticker("MSFT")
 
 
