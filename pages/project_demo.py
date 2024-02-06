@@ -1,8 +1,17 @@
 import yfinance as yf
+
 import streamlit as st
+import streamlit_gsheets
+from streamlit_gsheets import GSheetsConnection
+
 import pandas as pd
 import time
 import numpy as np
+import datetime
+
+
+
+
 
 
 
@@ -37,3 +46,30 @@ st.data_editor(oscar)
 st.metric("points", 30, 2)
 
 msft.insider_transactions
+
+raw_data = {'date': [0, 1, 2, 3, 4],
+        'price': [23, 24, 29, 19, 21]}
+
+markets = pd.DataFrame(raw_data)
+
+st.line_chart(markets.set_index('date'))
+
+iterations = st.slider("Level of detail", 2, 20, 10, 1)
+separation = st.slider("Separation", 0.7, 2.0, 0.1)
+
+
+
+today = datetime.date.today()
+tomorrow = today + datetime.timedelta(days=1)
+start_date = st.date_input('Start date', today)
+end_date = st.date_input('End date', tomorrow)
+if start_date < end_date:
+    st.success('Start date: `%s`\n\nEnd date:`%s`' % (start_date, end_date))
+else:
+    st.error('Error: End date must fall after start date.')
+
+
+url = "https://docs.google.com/spreadsheets/d/1vW1qzYSqPyWxZAyraNM83V8AzPotnOlfXT35ZbvfnfE/edit?usp=sharing"
+
+
+conn = st.experimental_connection("gsheets", type=GSheetsConnection)
