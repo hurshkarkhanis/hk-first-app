@@ -1,8 +1,7 @@
 import yfinance as yf
 
 import streamlit as st
-import streamlit_gsheets
-from streamlit_gsheets import GSheetsConnection
+
 
 import pandas as pd
 import time
@@ -68,8 +67,3 @@ if start_date < end_date:
 else:
     st.error('Error: End date must fall after start date.')
 
-
-url = "https://docs.google.com/spreadsheets/d/1vW1qzYSqPyWxZAyraNM83V8AzPotnOlfXT35ZbvfnfE/edit?usp=sharing"
-
-
-conn = st.experimental_connection("gsheets", type=GSheetsConnection)
